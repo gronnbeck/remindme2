@@ -44,6 +44,12 @@ function createEvent(payload) {
   }
 }
 
+app.get('/_health/level/0', function (req, res) {
+  res.send({
+    success: true
+  });
+});
+
 app.post('/', function (req, res) {
   var payload = req.body;
   var event = createEvent(payload);
