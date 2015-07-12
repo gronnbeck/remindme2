@@ -1,0 +1,15 @@
+{
+  "name": "email-parser",
+  "version": "1.0.0",
+  "description": "PoC for parsing all the emails",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ken Grønnbeck",
+  "license": "ISC",
+  "dependencies": {
+    "event-store-client": "0.0.5",
+    "express": "^4.13.1"
+  }
+}
