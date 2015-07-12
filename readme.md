@@ -26,9 +26,9 @@ docker run -i -p 8080:8080 email-receiver
 
 #### Todo
 * [x] Put email-receiver in docker
-* [ ] Build and launch eventstore and email-receiver to Digital Ocean
-* [ ] Get it to work manually, and reset event stream
-* [ ] Hook email-receiver to SendGrid incoming email API
+* [x] Build and  manually launch eventstore and email-receiver to Digital Ocean
+* [x] Get it to work manually, and reset event stream
+* [x] Hook email-receiver to SendGrid incoming email API
 * [ ] Change stream username and password, and remove it from code
 * [ ] Secure the SendGrid webhook
 
